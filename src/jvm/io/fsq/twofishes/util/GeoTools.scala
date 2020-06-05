@@ -1,8 +1,8 @@
 package io.fsq.twofishes.util
 
 import com.google.common.geometry.{S2LatLng, S2LatLngRect}
-import com.vividsolutions.jts.geom.{Coordinate, Geometry, GeometryFactory}
-import com.vividsolutions.jts.operation.distance.DistanceOp
+import org.locationtech.jts.geom.{Coordinate, Geometry, GeometryFactory}
+import org.locationtech.jts.operation.distance.DistanceOp
 import io.fsq.twofishes.gen.{GeocodeBoundingBox, GeocodePoint}
 import org.geotools.referencing.GeodeticCalculator
 import org.geotools.referencing.datum.DefaultEllipsoid

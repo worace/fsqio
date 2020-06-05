@@ -4,9 +4,9 @@ import akka.actor.{Actor, ActorSystem, PoisonPill, Props}
 import akka.routing.{Broadcast, RoundRobinPool}
 import com.google.common.geometry.S2CellId
 import com.twitter.ostrich.stats.Stats
-import com.vividsolutions.jts.geom.{Point => JTSPoint}
-import com.vividsolutions.jts.geom.prep.PreparedGeometryFactory
-import com.vividsolutions.jts.io.{WKBReader, WKBWriter}
+import org.locationtech.jts.geom.{Point => JTSPoint}
+import org.locationtech.jts.geom.prep.PreparedGeometryFactory
+import org.locationtech.jts.io.{WKBReader, WKBWriter}
 import io.fsq.twofishes.indexer.mongo.{IndexerQueryExecutor, RevGeoIndex}
 import io.fsq.twofishes.indexer.mongo.RogueImplicits._
 import io.fsq.twofishes.model.gen.{ThriftPolygonIndex, ThriftS2CoveringIndex, ThriftS2InteriorIndex}

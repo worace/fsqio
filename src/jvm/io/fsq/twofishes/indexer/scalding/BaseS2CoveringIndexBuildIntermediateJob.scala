@@ -3,7 +3,7 @@ package io.fsq.twofishes.indexer.scalding
 
 import com.twitter.scalding._
 import com.twitter.scalding.typed.TypedSink
-import com.vividsolutions.jts.io.WKBReader
+import org.locationtech.jts.io.WKBReader
 import io.fsq.twofishes.gen._
 import io.fsq.twofishes.indexer.util.SpindleSequenceFileSource
 import io.fsq.twofishes.util.{GeometryUtils, S2CoveringConstants}

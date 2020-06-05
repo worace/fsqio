@@ -10,7 +10,7 @@ import com.twitter.io.Buf
 import com.twitter.ostrich.admin.{AdminServiceFactory, RuntimeEnvironment, StatsFactory, TimeSeriesCollectorFactory, _}
 import com.twitter.ostrich.stats.Stats
 import com.twitter.util.{Await, Future, FuturePool}
-import com.vividsolutions.jts.io.WKTWriter
+import org.locationtech.jts.io.WKTWriter
 import io.fsq.common.scala.Lists.Implicits._
 import io.fsq.spindle.common.thrift.json.TReadableJSONProtocol
 import io.fsq.spindle.runtime.{MetaRecord, Record}

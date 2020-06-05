@@ -3,8 +3,8 @@
 package io.fsq.twofishes.util
 
 import com.google.caliper.{Runner, SimpleBenchmark}
-import com.vividsolutions.jts.geom.Coordinate
-import com.vividsolutions.jts.util.GeometricShapeFactory
+import org.locationtech.jts.geom.Coordinate
+import org.locationtech.jts.util.GeometricShapeFactory
 import io.fsq.common.scala.Lists.Implicits._
 //import org.bson.types.ObjectId
 import scala.util.Random
@@ -16,10 +16,10 @@ class S2CoverBenchmark extends SimpleBenchmark {
   /*
   for use in console:
 
-  import com.vividsolutions.jts.geom.Coordinate
+  import org.locationtech.jts.geom.Coordinate
   def geocode2(points: Seq[Coordinate], radius: Int, levelMod: Int) = points.map(p => {
     println(p)
-    import com.vividsolutions.jts.util.GeometricShapeFactory
+    import org.locationtech.jts.util.GeometricShapeFactory
     import io.fsq.twofishes.util.GeometryUtils
     val sizeDegrees = radius / 111319.9
     val gsf = new GeometricShapeFactory()

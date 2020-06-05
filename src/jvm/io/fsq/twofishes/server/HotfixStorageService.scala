@@ -1,7 +1,7 @@
 // Copyright 2014 Foursquare Labs Inc. All Rights Reserved.
 package io.fsq.twofishes.server
 
-import com.vividsolutions.jts.geom.Geometry
+import org.locationtech.jts.geom.Geometry
 import io.fsq.twofishes.gen.{CellGeometry, GeocodeServingFeature}
 import io.fsq.twofishes.util.StoredFeatureId
 

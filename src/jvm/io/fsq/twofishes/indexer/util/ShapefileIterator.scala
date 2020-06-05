@@ -2,7 +2,7 @@
 
 package io.fsq.twofishes.indexer.util
 
-import com.vividsolutions.jts.geom.Geometry
+import org.locationtech.jts.geom.Geometry
 import java.io.File
 import java.nio.charset.Charset
 import org.geotools.data.shapefile.ShapefileDataStore

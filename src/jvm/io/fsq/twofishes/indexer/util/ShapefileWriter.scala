@@ -8,8 +8,8 @@
 // import salat.annotations._
 // import salat.dao._
 // import salat.global._
-// import com.vividsolutions.jts.geom.{GeometryFactory, MultiPolygon, Polygon}
-// import com.vividsolutions.jts.io.WKBReader
+// import org.locationtech.jts.geom.{GeometryFactory, MultiPolygon, Polygon}
+// import org.locationtech.jts.io.WKBReader
 // import java.io.File
 // import org.geotools.data.{DataUtilities, DefaultTransaction}
 // import org.geotools.data.collection.ListFeatureCollection

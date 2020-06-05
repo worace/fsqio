@@ -1,8 +1,8 @@
 // Copyright 2012 Foursquare Labs Inc. All Rights Reserved.
 package io.fsq.twofishes.indexer.util
 
-import com.vividsolutions.jts.geom.{Coordinate, GeometryFactory}
-import com.vividsolutions.jts.io.WKBReader
+import org.locationtech.jts.geom.{Coordinate, GeometryFactory}
+import org.locationtech.jts.io.WKBReader
 import io.fsq.common.scala.Identity._
 import io.fsq.common.scala.Lists.Implicits._
 import io.fsq.twofishes.core.YahooWoeTypes

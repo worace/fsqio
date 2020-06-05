@@ -1,6 +1,6 @@
 package io.fsq.twofishes.indexer.output
 
-import com.vividsolutions.jts.io.WKBReader
+import org.locationtech.jts.io.WKBReader
 import io.fsq.common.scala.Identity._
 import io.fsq.rogue.Iter
 import io.fsq.twofishes.core.Indexes

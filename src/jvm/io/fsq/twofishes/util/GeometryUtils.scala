@@ -3,7 +3,7 @@
 package io.fsq.twofishes.util
 
 import com.google.common.geometry.{S2CellId, S2LatLng, S2LatLngRect, S2Polygon, S2PolygonBuilder, S2RegionCoverer}
-import com.vividsolutions.jts.geom.{Geometry, Point, Polygon}
+import org.locationtech.jts.geom.{Geometry, Point, Polygon}
 import scala.collection.JavaConverters._
 
 trait RevGeoConstants {

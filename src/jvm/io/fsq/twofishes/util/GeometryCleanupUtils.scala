@@ -1,7 +1,7 @@
 // Copyright 2014 Foursquare Labs Inc. All Rights Reserved.
 package io.fsq.twofishes.util
 
-import com.vividsolutions.jts.geom.Geometry
+import org.locationtech.jts.geom.Geometry
 import scala.collection.JavaConverters._
 
 object GeometryCleanupUtils {

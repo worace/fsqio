@@ -1,7 +1,7 @@
 package io.fsq.twofishes.core
 
-import com.vividsolutions.jts.geom.Geometry
-import com.vividsolutions.jts.io.{WKBReader, WKBWriter}
+import org.locationtech.jts.geom.Geometry
+import org.locationtech.jts.io.{WKBReader, WKBWriter}
 import io.fsq.twofishes.gen.{CellGeometries, GeocodeServingFeature, RawCellGeometries, RawGeocodeServingFeature}
 import io.fsq.twofishes.util.{ByteUtils, StoredFeatureId}
 import java.io.File

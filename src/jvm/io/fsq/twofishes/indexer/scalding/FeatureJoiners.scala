@@ -2,7 +2,7 @@
 package io.fsq.twofishes.indexer.scalding
 
 import com.twitter.scalding._
-import com.vividsolutions.jts.geom.{Coordinate, GeometryFactory}
+import org.locationtech.jts.geom.{Coordinate, GeometryFactory}
 import io.fsq.twofishes.gen._
 import io.fsq.twofishes.indexer.util.SlugEntry
 import io.fsq.twofishes.util.StoredFeatureId

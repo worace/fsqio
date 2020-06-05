@@ -1,8 +1,8 @@
 // Copyright 2014 Foursquare Labs Inc. All Rights Reserved.
 package io.fsq.twofishes.indexer.scalding.output
 
-import com.vividsolutions.jts.geom.Geometry
-import com.vividsolutions.jts.io.WKBReader
+import org.locationtech.jts.geom.Geometry
+import org.locationtech.jts.io.WKBReader
 import io.fsq.twofishes.core.Indexes
 import io.fsq.twofishes.gen._
 import io.fsq.twofishes.util.{RevGeoConstants, S2CoveringConstants, StoredFeatureId}

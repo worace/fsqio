@@ -2,7 +2,7 @@
 
 package io.fsq.geo.quadtree
 
-import com.vividsolutions.jts.geom.{Coordinate, Envelope, Geometry}
+import org.locationtech.jts.geom.{Coordinate, Envelope, Geometry}
 import java.io.Serializable
 import java.net.URL
 import org.geotools.data.{DataStoreFactorySpi, FileDataStore}

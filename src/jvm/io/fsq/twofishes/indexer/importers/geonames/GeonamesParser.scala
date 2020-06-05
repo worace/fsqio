@@ -4,8 +4,8 @@ package io.fsq.twofishes.indexer.importers.geonames
 import akka.actor.{ActorSystem, Props}
 import com.twitter.ostrich.admin.{AdminServiceFactory, RuntimeEnvironment}
 import com.twitter.ostrich.stats.Stats
-import com.vividsolutions.jts.geom.Geometry
-import com.vividsolutions.jts.io.{WKBWriter, WKTReader}
+import org.locationtech.jts.geom.Geometry
+import org.locationtech.jts.io.{WKBWriter, WKTReader}
 import io.fsq.common.scala.Identity._
 import io.fsq.common.scala.Lists.Implicits._
 import io.fsq.geo.quadtree.CountryRevGeo

@@ -1,7 +1,7 @@
 // Copyright 2014 Foursquare Labs Inc. All Rights Reserved.
 package io.fsq.twofishes.indexer.importers.geonames
 
-import com.vividsolutions.jts.io.WKBWriter
+import org.locationtech.jts.io.WKBWriter
 import io.fsq.common.scala.Lists.Implicits._
 import io.fsq.twofishes.indexer.util.{DisplayName, FsqSimpleFeature, GeoJsonIterator, ShapeIterator, ShapefileIterator}
 import io.fsq.twofishes.util.{FeatureNamespace, GeonamesNamespace, Helpers, StoredFeatureId}

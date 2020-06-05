@@ -43,7 +43,11 @@ then
 else
    curl -o $file http://download.geonames.org/export/dump/countryInfo.txt
 fi
-cp $file countryinfo/src/main/resources/
+
+echo "Need to move country info file into place..."
+echo $file
+
+cp $file src/jvm/io/fsq/twofishes/country/data/countryInfo.txt
 
 file=src/jvm/io/fsq/twofishes/indexer/data/downloaded/ne_10m_populated_places_simple.dbf
 if [ -f $file ];

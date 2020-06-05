@@ -2,7 +2,7 @@
 
 package io.fsq.geo.quadtree
 
-import com.vividsolutions.jts.geom.{Coordinate, Geometry}
+import org.locationtech.jts.geom.{Coordinate, Geometry}
 import io.fsq.geo.quadtree.ShapefileGeo.{GeoBounds, ShapeLeafNode, ShapeTrieNode}
 import java.io.File
 import org.geotools.data._

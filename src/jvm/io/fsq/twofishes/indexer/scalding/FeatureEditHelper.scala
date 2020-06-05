@@ -1,7 +1,7 @@
 // Copyright 2014 Foursquare Labs Inc. All Rights Reserved.
 package io.fsq.twofishes.indexer.scalding
 
-import com.vividsolutions.jts.io.{WKBWriter, WKTReader}
+import org.locationtech.jts.io.{WKBWriter, WKTReader}
 import io.fsq.twofishes.gen._
 import io.fsq.twofishes.util.NameNormalizer
 import java.nio.ByteBuffer

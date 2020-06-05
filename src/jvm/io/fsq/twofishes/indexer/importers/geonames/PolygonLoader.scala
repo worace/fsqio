@@ -5,8 +5,8 @@ import com.cybozu.labs.langdetect.DetectorFactory
 import com.ibm.icu.text.Transliterator
 import com.mongodb.MongoException
 import com.twitter.ostrich.stats.Stats
-import com.vividsolutions.jts.geom.Geometry
-import com.vividsolutions.jts.io.{WKBReader, WKBWriter}
+import org.locationtech.jts.geom.Geometry
+import org.locationtech.jts.io.{WKBReader, WKBWriter}
 import io.fsq.common.scala.Identity._
 import io.fsq.common.scala.Lists.Implicits._
 import io.fsq.geo.quadtree.CountryRevGeo

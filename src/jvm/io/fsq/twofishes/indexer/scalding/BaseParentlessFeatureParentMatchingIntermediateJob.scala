@@ -3,8 +3,8 @@ package io.fsq.twofishes.indexer.scalding
 
 import com.twitter.scalding._
 import com.twitter.scalding.typed.TypedSink
-import com.vividsolutions.jts.geom.prep.PreparedGeometryFactory
-import com.vividsolutions.jts.io.WKBReader
+import org.locationtech.jts.geom.prep.PreparedGeometryFactory
+import org.locationtech.jts.io.WKBReader
 import io.fsq.common.scala.Lists.Implicits._
 import io.fsq.twofishes.gen._
 import io.fsq.twofishes.indexer.util.SpindleSequenceFileSource

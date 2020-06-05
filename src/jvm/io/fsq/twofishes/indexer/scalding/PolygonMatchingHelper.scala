@@ -2,8 +2,8 @@
 package io.fsq.twofishes.indexer.scalding
 
 import com.ibm.icu.text.Transliterator
-import com.vividsolutions.jts.geom.Geometry
-import com.vividsolutions.jts.io.{WKBReader, WKBWriter}
+import org.locationtech.jts.geom.Geometry
+import org.locationtech.jts.io.{WKBReader, WKBWriter}
 import io.fsq.twofishes.gen._
 import org.apache.commons.net.util.Base64
 

@@ -2,9 +2,9 @@
 package io.fsq.twofishes.server
 
 import com.twitter.ostrich.stats.Stats
-import com.vividsolutions.jts.geom.Geometry
-import com.vividsolutions.jts.io.{WKBWriter, WKTWriter}
-import com.vividsolutions.jts.simplify.DouglasPeuckerSimplifier
+import org.locationtech.jts.geom.Geometry
+import org.locationtech.jts.io.{WKBWriter, WKTWriter}
+import org.locationtech.jts.simplify.DouglasPeuckerSimplifier
 import io.fsq.common.scala.Identity._
 import io.fsq.common.scala.Lists.Implicits._
 import io.fsq.twofishes.core.YahooWoeTypes

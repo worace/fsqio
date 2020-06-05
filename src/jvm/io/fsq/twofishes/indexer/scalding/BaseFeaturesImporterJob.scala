@@ -3,7 +3,7 @@ package io.fsq.twofishes.indexer.scalding
 
 import com.twitter.scalding._
 import com.twitter.scalding.typed.TypedSink
-import com.vividsolutions.jts.io.{WKBWriter, WKTReader}
+import org.locationtech.jts.io.{WKBWriter, WKTReader}
 import io.fsq.twofishes.gen._
 import io.fsq.twofishes.indexer.importers.geonames.GeonamesFeature
 import io.fsq.twofishes.indexer.util.{BoundingBox, DisplayName, GeocodeRecord, Point, SpindleSequenceFileSource}

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 if [ "$1" = "" ]; then
   echo "usage: $0 <2-letter-country-code>"
   echo "ex: $0 US"
@@ -22,11 +24,12 @@ if [ -f $FILE ];
 then
    echo "File $FILE exists."
 else
-   curl -o $FILE.zip http://download.geonames.org/export/dump/$COUNTRY.zip
-   unzip $FILE.zip
-   mv $COUNTRY.txt $FILE
-   rm readme.txt
-   rm $FILE.zip
+  echo "***** DOWNLOAD FILE $FILE"
+  curl -o $FILE.zip http://download.geonames.org/export/dump/$COUNTRY.zip
+  unzip $FILE.zip
+  mv $COUNTRY.txt $FILE
+  rm readme.txt
+  rm $FILE.zip
 fi
 
 
@@ -42,6 +45,8 @@ else
    rm $FILE.zip
 fi
 
-source src/jvm/io/fsq/twofishes/scripts/download-common.sh
+echo "!!!!!!!!!!!!!!!!)"
+
+bash src/jvm/io/fsq/twofishes/scripts/download-common.sh
 ./src/jvm/io/fsq/twofishes/scripts/extract-wiki-buildings.py $COUNTRY
 ./src/jvm/io/fsq/twofishes/scripts/extract-adm.py $COUNTRY

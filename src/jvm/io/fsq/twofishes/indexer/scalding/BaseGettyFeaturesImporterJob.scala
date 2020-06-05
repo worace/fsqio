@@ -3,7 +3,7 @@ package io.fsq.twofishes.indexer.scalding
 
 import com.twitter.scalding._
 import com.twitter.scalding.typed.TypedSink
-import com.vividsolutions.jts.geom.Geometry
+import org.locationtech.jts.geom.Geometry
 import io.fsq.geo.quadtree.CountryRevGeo
 import io.fsq.twofishes.gen.{YahooWoeType, _}
 import io.fsq.twofishes.indexer.util.{DisplayName, GeocodeRecord, SpindleSequenceFileSource}

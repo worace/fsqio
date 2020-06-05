@@ -2,9 +2,9 @@
 package io.fsq.twofishes.server
 
 import com.google.common.geometry.S2CellId
-import com.vividsolutions.jts.geom.{Geometry, Point}
-import com.vividsolutions.jts.geom.prep.PreparedGeometryFactory
-import com.vividsolutions.jts.io.{WKBWriter, WKTReader}
+import org.locationtech.jts.geom.{Geometry, Point}
+import org.locationtech.jts.geom.prep.PreparedGeometryFactory
+import org.locationtech.jts.io.{WKBWriter, WKTReader}
 import io.fsq.twofishes.gen.{
   CellGeometry,
   EditType,

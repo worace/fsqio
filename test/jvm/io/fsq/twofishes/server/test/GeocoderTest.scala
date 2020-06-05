@@ -1,8 +1,8 @@
 // Copyright 2012 Foursquare Labs Inc. All Rights Reserved.
 package io.fsq.twofishes.server.test
 
-import com.vividsolutions.jts.geom.Geometry
-import com.vividsolutions.jts.io.{WKBWriter, WKTReader}
+import org.locationtech.jts.geom.Geometry
+import org.locationtech.jts.io.{WKBWriter, WKTReader}
 import io.fsq.specs2.FSSpecificationWithJUnit
 import io.fsq.twofishes.gen.{
   CellGeometry,

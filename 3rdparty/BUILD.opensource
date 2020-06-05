@@ -645,9 +645,9 @@ jar_library(
   ],
   jars = [
     jar(
-      org = 'com.vividsolutions',
-      name = 'jts',
-      rev = '1.12',
+      org = 'org.locationtech.jts',
+      name = 'jts-core',
+      rev = '1.16.1',
       excludes = [
         exclude(org = 'xerces', name = 'xercesImpl'),
       ],
