@@ -373,7 +373,7 @@ jar_library(
   ],
 )
 
-geotools_rev = '9.2'
+geotools_rev = '23.0'
 
 jar_library(
   name = 'gt-main',
@@ -385,7 +385,7 @@ jar_library(
     jar(
       org = 'org.geotools',
       name = 'gt-main',
-      rev = geotools_rev,
+      rev = '20.5',
       excludes = [
         exclude(org = 'xerces', name = 'xercesImpl'),
       ],
@@ -393,23 +393,6 @@ jar_library(
   ],
 )
 
-jar_library(
-  name = 'gt-data',
-  tags = [
-    'opensource',
-    'fscommon',
-  ],
-  jars = [
-    jar(
-      org = 'org.geotools',
-      name = 'gt-data',
-      rev = geotools_rev,
-      excludes = [
-        exclude(org = 'xerces', name = 'xercesImpl'),
-      ],
-    ),
-  ],
-)
 
 jar_library(
   name = 'gt-geojson',
